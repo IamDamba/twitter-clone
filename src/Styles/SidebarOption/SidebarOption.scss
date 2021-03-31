@@ -1,0 +1,22 @@
+@import '../Fonts/fonts';
+
+.sidebarOption{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin: 20px 0px;
+
+  &:hover{
+    background-color: #e8f5fe;
+    border-radius: 30px;
+    color: $--twitter-color;
+    transition: color 100ms ease-out;
+  }h2{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 800;
+    font-size: 1.2rem;
+  }
+}.sidebarOption--active{
+  color: $--twitter-color;
+}

@@ -1,0 +1,33 @@
+@import "../Fonts/fonts";
+
+.widgets{
+  flex: .3;
+  
+  .widgets__input{
+    display: flex;
+    align-items: center;
+    background-color: $--twitter-bg;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+
+    input{
+      border: none;
+      background-color: $--twitter-bg;
+    }.widgets__searchIcon{
+      color: grey;
+    }
+  }.widgets__widgetContainer{
+    margin-top: 15px;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: #f5f8fa;
+    border-radius: 20px;
+
+    h2{
+      font-size: 18px;
+      font-weight: 800;
+    }
+  }
+}
